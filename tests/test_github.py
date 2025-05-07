@@ -72,6 +72,7 @@ def should_see_issue_name():
 @allure.feature("Issues")
 @allure.story("Проверяем наличие Issue с Title 'Not an issue actually'")
 @allure.link("https://github.com", "qa")
+
 def test_with_annotations():
     open_main_page()
     search_repo()
